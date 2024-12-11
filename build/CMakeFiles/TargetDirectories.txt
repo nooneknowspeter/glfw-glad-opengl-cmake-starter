@@ -26,6 +26,7 @@
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/install.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/install/local.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/install/strip.dir
+/home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/docs.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/package.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/package_source.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/edit_cache.dir
@@ -34,3 +35,12 @@
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/install.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/install/local.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/install/strip.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/glad.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/package.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/package_source.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/edit_cache.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/rebuild_cache.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/list_install_components.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/install.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/install/local.dir
+/home/peter/projects/test/build/libs/glad/CMakeFiles/install/strip.dir

@@ -145,365 +145,365 @@ libs/glfw/src/CMakeFiles/glfw.dir/context.c.o: libs/glfw/src/CMakeFiles/glfw.dir
 libs/glfw/src/CMakeFiles/glfw.dir/context.c.o: /home/peter/projects/test/libs/glfw/src/context.c
 libs/glfw/src/CMakeFiles/glfw.dir/context.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/context.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/context.c.o -MF CMakeFiles/glfw.dir/context.c.o.d -o CMakeFiles/glfw.dir/context.c.o -c /home/peter/projects/test/libs/glfw/src/context.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/context.c.o -MF CMakeFiles/glfw.dir/context.c.o.d -o CMakeFiles/glfw.dir/context.c.o -c /home/peter/projects/test/libs/glfw/src/context.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/context.c > CMakeFiles/glfw.dir/context.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/context.c > CMakeFiles/glfw.dir/context.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/context.c -o CMakeFiles/glfw.dir/context.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/context.c -o CMakeFiles/glfw.dir/context.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/init.c.o: /home/peter/projects/test/libs/glfw/src/init.c
 libs/glfw/src/CMakeFiles/glfw.dir/init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/init.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/init.c.o -MF CMakeFiles/glfw.dir/init.c.o.d -o CMakeFiles/glfw.dir/init.c.o -c /home/peter/projects/test/libs/glfw/src/init.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/init.c.o -MF CMakeFiles/glfw.dir/init.c.o.d -o CMakeFiles/glfw.dir/init.c.o -c /home/peter/projects/test/libs/glfw/src/init.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/init.c > CMakeFiles/glfw.dir/init.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/init.c > CMakeFiles/glfw.dir/init.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/init.c -o CMakeFiles/glfw.dir/init.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/init.c -o CMakeFiles/glfw.dir/init.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/input.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/input.c.o: /home/peter/projects/test/libs/glfw/src/input.c
 libs/glfw/src/CMakeFiles/glfw.dir/input.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/input.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/input.c.o -MF CMakeFiles/glfw.dir/input.c.o.d -o CMakeFiles/glfw.dir/input.c.o -c /home/peter/projects/test/libs/glfw/src/input.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/input.c.o -MF CMakeFiles/glfw.dir/input.c.o.d -o CMakeFiles/glfw.dir/input.c.o -c /home/peter/projects/test/libs/glfw/src/input.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/input.c > CMakeFiles/glfw.dir/input.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/input.c > CMakeFiles/glfw.dir/input.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/input.c -o CMakeFiles/glfw.dir/input.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/input.c -o CMakeFiles/glfw.dir/input.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: /home/peter/projects/test/libs/glfw/src/monitor.c
 libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.o -MF CMakeFiles/glfw.dir/monitor.c.o.d -o CMakeFiles/glfw.dir/monitor.c.o -c /home/peter/projects/test/libs/glfw/src/monitor.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.o -MF CMakeFiles/glfw.dir/monitor.c.o.d -o CMakeFiles/glfw.dir/monitor.c.o -c /home/peter/projects/test/libs/glfw/src/monitor.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/monitor.c > CMakeFiles/glfw.dir/monitor.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/monitor.c -o CMakeFiles/glfw.dir/monitor.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/platform.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/platform.c.o: /home/peter/projects/test/libs/glfw/src/platform.c
 libs/glfw/src/CMakeFiles/glfw.dir/platform.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/platform.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/platform.c.o -MF CMakeFiles/glfw.dir/platform.c.o.d -o CMakeFiles/glfw.dir/platform.c.o -c /home/peter/projects/test/libs/glfw/src/platform.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/platform.c.o -MF CMakeFiles/glfw.dir/platform.c.o.d -o CMakeFiles/glfw.dir/platform.c.o -c /home/peter/projects/test/libs/glfw/src/platform.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/platform.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/platform.c > CMakeFiles/glfw.dir/platform.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/platform.c > CMakeFiles/glfw.dir/platform.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/platform.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/platform.c -o CMakeFiles/glfw.dir/platform.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/platform.c -o CMakeFiles/glfw.dir/platform.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: /home/peter/projects/test/libs/glfw/src/vulkan.c
 libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o -MF CMakeFiles/glfw.dir/vulkan.c.o.d -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/peter/projects/test/libs/glfw/src/vulkan.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o -MF CMakeFiles/glfw.dir/vulkan.c.o.d -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/peter/projects/test/libs/glfw/src/vulkan.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/vulkan.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/vulkan.c > CMakeFiles/glfw.dir/vulkan.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/vulkan.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/vulkan.c -o CMakeFiles/glfw.dir/vulkan.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/window.c.o: /home/peter/projects/test/libs/glfw/src/window.c
 libs/glfw/src/CMakeFiles/glfw.dir/window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/window.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/window.c.o -MF CMakeFiles/glfw.dir/window.c.o.d -o CMakeFiles/glfw.dir/window.c.o -c /home/peter/projects/test/libs/glfw/src/window.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/window.c.o -MF CMakeFiles/glfw.dir/window.c.o.d -o CMakeFiles/glfw.dir/window.c.o -c /home/peter/projects/test/libs/glfw/src/window.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/window.c > CMakeFiles/glfw.dir/window.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/window.c > CMakeFiles/glfw.dir/window.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/window.c -o CMakeFiles/glfw.dir/window.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/window.c -o CMakeFiles/glfw.dir/window.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: /home/peter/projects/test/libs/glfw/src/egl_context.c
 libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/peter/projects/test/libs/glfw/src/egl_context.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o -MF CMakeFiles/glfw.dir/egl_context.c.o.d -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/peter/projects/test/libs/glfw/src/egl_context.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/egl_context.c > CMakeFiles/glfw.dir/egl_context.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/egl_context.c -o CMakeFiles/glfw.dir/egl_context.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: /home/peter/projects/test/libs/glfw/src/osmesa_context.c
 libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/peter/projects/test/libs/glfw/src/osmesa_context.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o -MF CMakeFiles/glfw.dir/osmesa_context.c.o.d -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/peter/projects/test/libs/glfw/src/osmesa_context.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/osmesa_context.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/osmesa_context.c > CMakeFiles/glfw.dir/osmesa_context.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/osmesa_context.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/osmesa_context.c -o CMakeFiles/glfw.dir/osmesa_context.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: /home/peter/projects/test/libs/glfw/src/null_init.c
 libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.o -MF CMakeFiles/glfw.dir/null_init.c.o.d -o CMakeFiles/glfw.dir/null_init.c.o -c /home/peter/projects/test/libs/glfw/src/null_init.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.o -MF CMakeFiles/glfw.dir/null_init.c.o.d -o CMakeFiles/glfw.dir/null_init.c.o -c /home/peter/projects/test/libs/glfw/src/null_init.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_init.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_init.c > CMakeFiles/glfw.dir/null_init.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_init.c > CMakeFiles/glfw.dir/null_init.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_init.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_init.c -o CMakeFiles/glfw.dir/null_init.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_init.c -o CMakeFiles/glfw.dir/null_init.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: /home/peter/projects/test/libs/glfw/src/null_monitor.c
 libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o -MF CMakeFiles/glfw.dir/null_monitor.c.o.d -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/peter/projects/test/libs/glfw/src/null_monitor.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o -MF CMakeFiles/glfw.dir/null_monitor.c.o.d -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/peter/projects/test/libs/glfw/src/null_monitor.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_monitor.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_monitor.c > CMakeFiles/glfw.dir/null_monitor.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_monitor.c > CMakeFiles/glfw.dir/null_monitor.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_monitor.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_monitor.c -o CMakeFiles/glfw.dir/null_monitor.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_monitor.c -o CMakeFiles/glfw.dir/null_monitor.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: /home/peter/projects/test/libs/glfw/src/null_window.c
 libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.o -MF CMakeFiles/glfw.dir/null_window.c.o.d -o CMakeFiles/glfw.dir/null_window.c.o -c /home/peter/projects/test/libs/glfw/src/null_window.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.o -MF CMakeFiles/glfw.dir/null_window.c.o.d -o CMakeFiles/glfw.dir/null_window.c.o -c /home/peter/projects/test/libs/glfw/src/null_window.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_window.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_window.c > CMakeFiles/glfw.dir/null_window.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_window.c > CMakeFiles/glfw.dir/null_window.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_window.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_window.c -o CMakeFiles/glfw.dir/null_window.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_window.c -o CMakeFiles/glfw.dir/null_window.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: /home/peter/projects/test/libs/glfw/src/null_joystick.c
 libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o -MF CMakeFiles/glfw.dir/null_joystick.c.o.d -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/peter/projects/test/libs/glfw/src/null_joystick.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o -MF CMakeFiles/glfw.dir/null_joystick.c.o.d -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/peter/projects/test/libs/glfw/src/null_joystick.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/null_joystick.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_joystick.c > CMakeFiles/glfw.dir/null_joystick.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/null_joystick.c > CMakeFiles/glfw.dir/null_joystick.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/null_joystick.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_joystick.c -o CMakeFiles/glfw.dir/null_joystick.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/null_joystick.c -o CMakeFiles/glfw.dir/null_joystick.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: /home/peter/projects/test/libs/glfw/src/posix_module.c
 libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o -MF CMakeFiles/glfw.dir/posix_module.c.o.d -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/peter/projects/test/libs/glfw/src/posix_module.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o -MF CMakeFiles/glfw.dir/posix_module.c.o.d -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/peter/projects/test/libs/glfw/src/posix_module.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_module.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_module.c > CMakeFiles/glfw.dir/posix_module.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_module.c > CMakeFiles/glfw.dir/posix_module.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_module.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_module.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_module.c -o CMakeFiles/glfw.dir/posix_module.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_module.c -o CMakeFiles/glfw.dir/posix_module.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: /home/peter/projects/test/libs/glfw/src/posix_time.c
 libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -MF CMakeFiles/glfw.dir/posix_time.c.o.d -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/peter/projects/test/libs/glfw/src/posix_time.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o -MF CMakeFiles/glfw.dir/posix_time.c.o.d -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/peter/projects/test/libs/glfw/src/posix_time.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_time.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_time.c > CMakeFiles/glfw.dir/posix_time.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_time.c > CMakeFiles/glfw.dir/posix_time.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_time.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_time.c -o CMakeFiles/glfw.dir/posix_time.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_time.c -o CMakeFiles/glfw.dir/posix_time.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: /home/peter/projects/test/libs/glfw/src/posix_thread.c
 libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/peter/projects/test/libs/glfw/src/posix_thread.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o -MF CMakeFiles/glfw.dir/posix_thread.c.o.d -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/peter/projects/test/libs/glfw/src/posix_thread.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_thread.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_thread.c > CMakeFiles/glfw.dir/posix_thread.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_thread.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_thread.c -o CMakeFiles/glfw.dir/posix_thread.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: /home/peter/projects/test/libs/glfw/src/x11_init.c
 libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o -MF CMakeFiles/glfw.dir/x11_init.c.o.d -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/peter/projects/test/libs/glfw/src/x11_init.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o -MF CMakeFiles/glfw.dir/x11_init.c.o.d -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/peter/projects/test/libs/glfw/src/x11_init.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/x11_init.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/x11_init.c > CMakeFiles/glfw.dir/x11_init.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/x11_init.c > CMakeFiles/glfw.dir/x11_init.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/x11_init.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/x11_init.c -o CMakeFiles/glfw.dir/x11_init.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/x11_init.c -o CMakeFiles/glfw.dir/x11_init.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: /home/peter/projects/test/libs/glfw/src/x11_monitor.c
 libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o -MF CMakeFiles/glfw.dir/x11_monitor.c.o.d -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/peter/projects/test/libs/glfw/src/x11_monitor.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o -MF CMakeFiles/glfw.dir/x11_monitor.c.o.d -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/peter/projects/test/libs/glfw/src/x11_monitor.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/x11_monitor.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/x11_monitor.c > CMakeFiles/glfw.dir/x11_monitor.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/x11_monitor.c > CMakeFiles/glfw.dir/x11_monitor.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/x11_monitor.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/x11_monitor.c -o CMakeFiles/glfw.dir/x11_monitor.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/x11_monitor.c -o CMakeFiles/glfw.dir/x11_monitor.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: /home/peter/projects/test/libs/glfw/src/x11_window.c
 libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o -MF CMakeFiles/glfw.dir/x11_window.c.o.d -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/peter/projects/test/libs/glfw/src/x11_window.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o -MF CMakeFiles/glfw.dir/x11_window.c.o.d -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/peter/projects/test/libs/glfw/src/x11_window.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/x11_window.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/x11_window.c > CMakeFiles/glfw.dir/x11_window.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/x11_window.c > CMakeFiles/glfw.dir/x11_window.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/x11_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/x11_window.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/x11_window.c -o CMakeFiles/glfw.dir/x11_window.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/x11_window.c -o CMakeFiles/glfw.dir/x11_window.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: /home/peter/projects/test/libs/glfw/src/xkb_unicode.c
 libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -MF CMakeFiles/glfw.dir/xkb_unicode.c.o.d -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/peter/projects/test/libs/glfw/src/xkb_unicode.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -MF CMakeFiles/glfw.dir/xkb_unicode.c.o.d -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/peter/projects/test/libs/glfw/src/xkb_unicode.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/xkb_unicode.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/xkb_unicode.c > CMakeFiles/glfw.dir/xkb_unicode.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/xkb_unicode.c > CMakeFiles/glfw.dir/xkb_unicode.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/xkb_unicode.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/xkb_unicode.c -o CMakeFiles/glfw.dir/xkb_unicode.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/xkb_unicode.c -o CMakeFiles/glfw.dir/xkb_unicode.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: /home/peter/projects/test/libs/glfw/src/glx_context.c
 libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o -MF CMakeFiles/glfw.dir/glx_context.c.o.d -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/peter/projects/test/libs/glfw/src/glx_context.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o -MF CMakeFiles/glfw.dir/glx_context.c.o.d -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/peter/projects/test/libs/glfw/src/glx_context.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/glx_context.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/glx_context.c > CMakeFiles/glfw.dir/glx_context.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/glx_context.c > CMakeFiles/glfw.dir/glx_context.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/glx_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/glx_context.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/glx_context.c -o CMakeFiles/glfw.dir/glx_context.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/glx_context.c -o CMakeFiles/glfw.dir/glx_context.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o: /home/peter/projects/test/libs/glfw/src/wl_init.c
 libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o -MF CMakeFiles/glfw.dir/wl_init.c.o.d -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/peter/projects/test/libs/glfw/src/wl_init.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.o -MF CMakeFiles/glfw.dir/wl_init.c.o.d -o CMakeFiles/glfw.dir/wl_init.c.o -c /home/peter/projects/test/libs/glfw/src/wl_init.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wl_init.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/wl_init.c > CMakeFiles/glfw.dir/wl_init.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/wl_init.c > CMakeFiles/glfw.dir/wl_init.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wl_init.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/wl_init.c -o CMakeFiles/glfw.dir/wl_init.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/wl_init.c -o CMakeFiles/glfw.dir/wl_init.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o: /home/peter/projects/test/libs/glfw/src/wl_monitor.c
 libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o -MF CMakeFiles/glfw.dir/wl_monitor.c.o.d -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/peter/projects/test/libs/glfw/src/wl_monitor.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.o -MF CMakeFiles/glfw.dir/wl_monitor.c.o.d -o CMakeFiles/glfw.dir/wl_monitor.c.o -c /home/peter/projects/test/libs/glfw/src/wl_monitor.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wl_monitor.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/wl_monitor.c > CMakeFiles/glfw.dir/wl_monitor.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/wl_monitor.c > CMakeFiles/glfw.dir/wl_monitor.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wl_monitor.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/wl_monitor.c -o CMakeFiles/glfw.dir/wl_monitor.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/wl_monitor.c -o CMakeFiles/glfw.dir/wl_monitor.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o: /home/peter/projects/test/libs/glfw/src/wl_window.c
 libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o -MF CMakeFiles/glfw.dir/wl_window.c.o.d -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/peter/projects/test/libs/glfw/src/wl_window.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.o -MF CMakeFiles/glfw.dir/wl_window.c.o.d -o CMakeFiles/glfw.dir/wl_window.c.o -c /home/peter/projects/test/libs/glfw/src/wl_window.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wl_window.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/wl_window.c > CMakeFiles/glfw.dir/wl_window.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/wl_window.c > CMakeFiles/glfw.dir/wl_window.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/wl_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wl_window.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/wl_window.c -o CMakeFiles/glfw.dir/wl_window.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/wl_window.c -o CMakeFiles/glfw.dir/wl_window.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: /home/peter/projects/test/libs/glfw/src/linux_joystick.c
 libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o -MF CMakeFiles/glfw.dir/linux_joystick.c.o.d -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/peter/projects/test/libs/glfw/src/linux_joystick.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o -MF CMakeFiles/glfw.dir/linux_joystick.c.o.d -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/peter/projects/test/libs/glfw/src/linux_joystick.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/linux_joystick.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/linux_joystick.c > CMakeFiles/glfw.dir/linux_joystick.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/linux_joystick.c > CMakeFiles/glfw.dir/linux_joystick.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/linux_joystick.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/linux_joystick.c -o CMakeFiles/glfw.dir/linux_joystick.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/linux_joystick.c -o CMakeFiles/glfw.dir/linux_joystick.c.s
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: libs/glfw/src/CMakeFiles/glfw.dir/flags.make
 libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: /home/peter/projects/test/libs/glfw/src/posix_poll.c
 libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: libs/glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o -MF CMakeFiles/glfw.dir/posix_poll.c.o.d -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/peter/projects/test/libs/glfw/src/posix_poll.c
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o -MF CMakeFiles/glfw.dir/posix_poll.c.o.d -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/peter/projects/test/libs/glfw/src/posix_poll.c
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/posix_poll.c.i"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_poll.c > CMakeFiles/glfw.dir/posix_poll.c.i
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/peter/projects/test/libs/glfw/src/posix_poll.c > CMakeFiles/glfw.dir/posix_poll.c.i
 
 libs/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/posix_poll.c.s"
-	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_poll.c -o CMakeFiles/glfw.dir/posix_poll.c.s
+	cd /home/peter/projects/test/build/libs/glfw/src && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/peter/projects/test/libs/glfw/src/posix_poll.c -o CMakeFiles/glfw.dir/posix_poll.c.s
 
 # Object files for target glfw
 glfw_OBJECTS = \

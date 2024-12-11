@@ -181,6 +181,20 @@ depend:
 	cd /home/peter/projects/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+libs/glfw/docs/CMakeFiles/docs.dir/rule:
+	cd /home/peter/projects/test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/glfw/docs/CMakeFiles/docs.dir/rule
+.PHONY : libs/glfw/docs/CMakeFiles/docs.dir/rule
+
+# Convenience name for target.
+docs: libs/glfw/docs/CMakeFiles/docs.dir/rule
+.PHONY : docs
+
+# fast build rule for target.
+docs/fast:
+	cd /home/peter/projects/test/build && $(MAKE) $(MAKESILENT) -f libs/glfw/docs/CMakeFiles/docs.dir/build.make libs/glfw/docs/CMakeFiles/docs.dir/build
+.PHONY : docs/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -195,6 +209,7 @@ help:
 	@echo "... package"
 	@echo "... package_source"
 	@echo "... rebuild_cache"
+	@echo "... docs"
 .PHONY : help
 
 

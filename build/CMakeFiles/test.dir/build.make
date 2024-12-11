@@ -73,15 +73,15 @@ CMakeFiles/test.dir/src/main.cpp.o: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/src/main.cpp.o: /home/peter/projects/test/src/main.cpp
 CMakeFiles/test.dir/src/main.cpp.o: CMakeFiles/test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/main.cpp.o -MF CMakeFiles/test.dir/src/main.cpp.o.d -o CMakeFiles/test.dir/src/main.cpp.o -c /home/peter/projects/test/src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/src/main.cpp.o -MF CMakeFiles/test.dir/src/main.cpp.o.d -o CMakeFiles/test.dir/src/main.cpp.o -c /home/peter/projects/test/src/main.cpp
 
 CMakeFiles/test.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peter/projects/test/src/main.cpp > CMakeFiles/test.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/peter/projects/test/src/main.cpp > CMakeFiles/test.dir/src/main.cpp.i
 
 CMakeFiles/test.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peter/projects/test/src/main.cpp -o CMakeFiles/test.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/peter/projects/test/src/main.cpp -o CMakeFiles/test.dir/src/main.cpp.s
 
 # Object files for target test
 test_OBJECTS = \
@@ -93,6 +93,7 @@ test_EXTERNAL_OBJECTS =
 test: CMakeFiles/test.dir/src/main.cpp.o
 test: CMakeFiles/test.dir/build.make
 test: libs/glfw/src/libglfw3.a
+test: libs/glad/libglad.a
 test: /usr/lib/x86_64-linux-gnu/librt.a
 test: /usr/lib/x86_64-linux-gnu/libm.so
 test: CMakeFiles/test.dir/link.txt
