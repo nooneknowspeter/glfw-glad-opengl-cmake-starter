@@ -339,3 +339,136 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-sp6U6O
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67ced/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67ced.dir/build.make CMakeFiles/cmTC_67ced.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-sp6U6O'
+Building C object CMakeFiles/cmTC_67ced.dir/src.c.o
+/usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_67ced.dir/src.c.o -MF CMakeFiles/cmTC_67ced.dir/src.c.o.d -o CMakeFiles/cmTC_67ced.dir/src.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-sp6U6O/src.c
+Linking C executable cmTC_67ced
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ced.dir/link.txt --verbose=1
+/usr/bin/clang CMakeFiles/cmTC_67ced.dir/src.c.o -o cmTC_67ced 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-sp6U6O'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function memfd_create exists passed with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-3siZPq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79f8c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79f8c.dir/build.make CMakeFiles/cmTC_79f8c.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-3siZPq'
+Building C object CMakeFiles/cmTC_79f8c.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=memfd_create -MD -MT CMakeFiles/cmTC_79f8c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_79f8c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_79f8c.dir/CheckFunctionExists.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-3siZPq/CheckFunctionExists.c
+Linking C executable cmTC_79f8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79f8c.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=memfd_create CMakeFiles/cmTC_79f8c.dir/CheckFunctionExists.c.o -o cmTC_79f8c 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-3siZPq'
+
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-TrtD0f
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27c07/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27c07.dir/build.make CMakeFiles/cmTC_27c07.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-TrtD0f'
+Building C object CMakeFiles/cmTC_27c07.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -MD -MT CMakeFiles/cmTC_27c07.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_27c07.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_27c07.dir/CheckFunctionExists.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-TrtD0f/CheckFunctionExists.c
+Linking C executable cmTC_27c07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27c07.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_27c07.dir/CheckFunctionExists.c.o -o cmTC_27c07  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-TrtD0f'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-s5T0kd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13c03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13c03.dir/build.make CMakeFiles/cmTC_13c03.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-s5T0kd'
+Building C object CMakeFiles/cmTC_13c03.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=gethostbyname -MD -MT CMakeFiles/cmTC_13c03.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_13c03.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_13c03.dir/CheckFunctionExists.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-s5T0kd/CheckFunctionExists.c
+Linking C executable cmTC_13c03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13c03.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_13c03.dir/CheckFunctionExists.c.o -o cmTC_13c03 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-s5T0kd'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-GSdCcc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e02ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e02ff.dir/build.make CMakeFiles/cmTC_e02ff.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-GSdCcc'
+Building C object CMakeFiles/cmTC_e02ff.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=connect -MD -MT CMakeFiles/cmTC_e02ff.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e02ff.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e02ff.dir/CheckFunctionExists.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-GSdCcc/CheckFunctionExists.c
+Linking C executable cmTC_e02ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e02ff.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_e02ff.dir/CheckFunctionExists.c.o -o cmTC_e02ff 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-GSdCcc'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-2gZvbT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_40e54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_40e54.dir/build.make CMakeFiles/cmTC_40e54.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-2gZvbT'
+Building C object CMakeFiles/cmTC_40e54.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=remove -MD -MT CMakeFiles/cmTC_40e54.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_40e54.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_40e54.dir/CheckFunctionExists.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-2gZvbT/CheckFunctionExists.c
+Linking C executable cmTC_40e54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40e54.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_40e54.dir/CheckFunctionExists.c.o -o cmTC_40e54 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-2gZvbT'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-6lbvoi
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9a52b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9a52b.dir/build.make CMakeFiles/cmTC_9a52b.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-6lbvoi'
+Building C object CMakeFiles/cmTC_9a52b.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=shmat -MD -MT CMakeFiles/cmTC_9a52b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_9a52b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_9a52b.dir/CheckFunctionExists.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-6lbvoi/CheckFunctionExists.c
+Linking C executable cmTC_9a52b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a52b.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_9a52b.dir/CheckFunctionExists.c.o -o cmTC_9a52b 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-6lbvoi'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-Cfa1DA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76801/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76801.dir/build.make CMakeFiles/cmTC_76801.dir/build
+gmake[1]: Entering directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-Cfa1DA'
+Building C object CMakeFiles/cmTC_76801.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -MD -MT CMakeFiles/cmTC_76801.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_76801.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_76801.dir/CheckFunctionExists.c.o -c /home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-Cfa1DA/CheckFunctionExists.c
+Linking C executable cmTC_76801
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76801.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_76801.dir/CheckFunctionExists.c.o -o cmTC_76801  -lICE 
+gmake[1]: Leaving directory '/home/peter/projects/test/build/CMakeFiles/CMakeScratch/TryCompile-Cfa1DA'
+
+
+
