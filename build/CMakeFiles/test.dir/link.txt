@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/test.dir/src/main.cpp.o -o test  libs/glfw/src/libglfw3.a libs/glad/libglad.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 
+/usr/bin/g++ -g CMakeFiles/test.dir/src/main.cpp.o -o test  libs/glfw/src/libglfw3.a libs/glad/libglad.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so 
