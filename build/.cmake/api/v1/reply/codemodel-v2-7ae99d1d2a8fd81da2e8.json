@@ -155,21 +155,21 @@
 				{
 					"directoryIndex" : 4,
 					"id" : "glad::@394eb3637a8e70cb7dd5",
-					"jsonFile" : "target-glad-Debug-99710370de52fa031a2e.json",
+					"jsonFile" : "target-glad-Debug-6ac6a0e9ac2f12d776f5.json",
 					"name" : "glad",
 					"projectIndex" : 2
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@9d94ad66e13f8aab41f7",
-					"jsonFile" : "target-glfw-Debug-d51c668da6bd4b6d366e.json",
+					"jsonFile" : "target-glfw-Debug-572dc1e57d74cbbff20d.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-218c7fbb880dfbc4c9f8.json",
+					"jsonFile" : "target-test-Debug-15d94a0aa930134f3cd5.json",
 					"name" : "test",
 					"projectIndex" : 0
 				},
@@ -193,8 +193,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/peter/projects/test/build",
-		"source" : "/home/peter/projects/test"
+		"build" : "/home/peter/projects/opengl-playground/build",
+		"source" : "/home/peter/projects/opengl-playground"
 	},
 	"version" : 
 	{

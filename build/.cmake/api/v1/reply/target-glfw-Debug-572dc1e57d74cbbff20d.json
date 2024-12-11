@@ -268,15 +268,15 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/home/peter/projects/test/libs/glfw/include"
+					"path" : "/home/peter/projects/opengl-playground/libs/glfw/include"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/peter/projects/test/libs/glfw/src"
+					"path" : "/home/peter/projects/opengl-playground/libs/glfw/src"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/peter/projects/test/build/libs/glfw/src"
+					"path" : "/home/peter/projects/opengl-playground/build/libs/glfw/src"
 				}
 			],
 			"language" : "C",

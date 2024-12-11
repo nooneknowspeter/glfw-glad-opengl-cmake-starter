@@ -1,6 +1,7 @@
 CMakeFiles/test.dir/src/main.cpp.o: \
- /home/peter/projects/test/src/main.cpp /usr/include/stdc-predef.h \
- /home/peter/projects/test/libs/glfw/include/GLFW/glfw3.h \
+ /home/peter/projects/opengl-playground/src/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/peter/projects/opengl-playground/libs/glfw/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -18,7 +19,7 @@ CMakeFiles/test.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h \
- /home/peter/projects/test/libs/glad/include/KHR/khrplatform.h \
+ /home/peter/projects/opengl-playground/libs/glad/include/KHR/khrplatform.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

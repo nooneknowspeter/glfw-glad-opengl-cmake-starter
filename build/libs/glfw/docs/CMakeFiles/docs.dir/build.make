@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peter/projects/test
+CMAKE_SOURCE_DIR = /home/peter/projects/opengl-playground
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peter/projects/test/build
+CMAKE_BINARY_DIR = /home/peter/projects/opengl-playground/build
 
 # Utility rule file for docs.
 
@@ -67,29 +67,29 @@ include libs/glfw/docs/CMakeFiles/docs.dir/compiler_depend.make
 include libs/glfw/docs/CMakeFiles/docs.dir/progress.make
 
 libs/glfw/docs/html/index.html: libs/glfw/docs/Doxyfile
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/include/GLFW/glfw3.h
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/include/GLFW/glfw3native.h
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/main.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/news.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/quick.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/moving.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/compile.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/build.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/intro.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/context.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/monitor.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/window.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/input.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/vulkan.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/compat.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/internal.md
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/DoxygenLayout.xml
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/header.html
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/footer.html
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/extra.css
-libs/glfw/docs/html/index.html: /home/peter/projects/test/libs/glfw/docs/spaces.svg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating HTML documentation"
-	cd /home/peter/projects/test/build/libs/glfw/docs && /usr/local/bin/doxygen
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/include/GLFW/glfw3.h
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/include/GLFW/glfw3native.h
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/main.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/news.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/quick.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/moving.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/compile.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/build.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/intro.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/context.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/monitor.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/window.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/input.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/vulkan.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/compat.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/internal.md
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/DoxygenLayout.xml
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/header.html
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/footer.html
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/extra.css
+libs/glfw/docs/html/index.html: /home/peter/projects/opengl-playground/libs/glfw/docs/spaces.svg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/peter/projects/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating HTML documentation"
+	cd /home/peter/projects/opengl-playground/build/libs/glfw/docs && /usr/local/bin/doxygen
 
 docs: libs/glfw/docs/html/index.html
 docs: libs/glfw/docs/CMakeFiles/docs.dir/build.make
@@ -100,10 +100,10 @@ libs/glfw/docs/CMakeFiles/docs.dir/build: docs
 .PHONY : libs/glfw/docs/CMakeFiles/docs.dir/build
 
 libs/glfw/docs/CMakeFiles/docs.dir/clean:
-	cd /home/peter/projects/test/build/libs/glfw/docs && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
+	cd /home/peter/projects/opengl-playground/build/libs/glfw/docs && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
 .PHONY : libs/glfw/docs/CMakeFiles/docs.dir/clean
 
 libs/glfw/docs/CMakeFiles/docs.dir/depend:
-	cd /home/peter/projects/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peter/projects/test /home/peter/projects/test/libs/glfw/docs /home/peter/projects/test/build /home/peter/projects/test/build/libs/glfw/docs /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peter/projects/opengl-playground/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peter/projects/opengl-playground /home/peter/projects/opengl-playground/libs/glfw/docs /home/peter/projects/opengl-playground/build /home/peter/projects/opengl-playground/build/libs/glfw/docs /home/peter/projects/opengl-playground/build/libs/glfw/docs/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/glfw/docs/CMakeFiles/docs.dir/depend
 

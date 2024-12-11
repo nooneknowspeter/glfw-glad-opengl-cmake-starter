@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/peter/projects/test/build"
+			"value" : "/home/peter/projects/opengl-playground/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/peter/projects/test/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/peter/projects/opengl-playground/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -675,7 +675,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/peter/projects/test"
+			"value" : "/home/peter/projects/opengl-playground"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1539,7 +1539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/peter/projects/test/build/cmake"
+			"value" : "/home/peter/projects/opengl-playground/build/cmake"
 		},
 		{
 			"name" : "CPM_DONT_CREATE_PACKAGE_LOCK",
@@ -1599,7 +1599,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/peter/projects/test/build/cmake/CPM_0.40.2.cmake"
+			"value" : "/home/peter/projects/opengl-playground/build/cmake/CPM_0.40.2.cmake"
 		},
 		{
 			"name" : "CPM_INCLUDE_ALL_IN_PACKAGE_LOCK",
@@ -1647,7 +1647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/peter/projects/test/build/CPM_modules"
+			"value" : "/home/peter/projects/opengl-playground/build/CPM_modules"
 		},
 		{
 			"name" : "CPM_PACKAGES",
@@ -1671,7 +1671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/peter/projects/test/build/cpm-package-lock.cmake"
+			"value" : "/home/peter/projects/opengl-playground/build/cpm-package-lock.cmake"
 		},
 		{
 			"name" : "CPM_SOURCE_CACHE",
@@ -1747,7 +1747,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/peter/projects/test/build/_deps"
+			"value" : "/home/peter/projects/opengl-playground/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1951,7 +1951,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/peter/projects/test/build/libs/glfw"
+			"value" : "/home/peter/projects/opengl-playground/build/libs/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -2083,7 +2083,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/peter/projects/test/libs/glfw"
+			"value" : "/home/peter/projects/opengl-playground/libs/glfw"
 		},
 		{
 			"name" : "HAVE_MEMFD_CREATE",
@@ -2176,22 +2176,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libEGL.so"
-		},
-		{
-			"name" : "OPENGL_gl_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/libGL.so"
 		},
 		{
 			"name" : "OPENGL_glu_LIBRARY",
@@ -4771,7 +4755,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/peter/projects/test/build/libs/glad"
+			"value" : "/home/peter/projects/opengl-playground/build/libs/glad"
 		},
 		{
 			"name" : "glad_IS_TOP_LEVEL",
@@ -4795,7 +4779,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/peter/projects/test/libs/glad"
+			"value" : "/home/peter/projects/opengl-playground/libs/glad"
 		},
 		{
 			"name" : "pkgcfg_lib_PKG_FONTCONFIG_fontconfig",
@@ -4915,7 +4899,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/peter/projects/test/build"
+			"value" : "/home/peter/projects/opengl-playground/build"
 		},
 		{
 			"name" : "test_IS_TOP_LEVEL",
@@ -4939,7 +4923,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/peter/projects/test"
+			"value" : "/home/peter/projects/opengl-playground"
 		}
 	],
 	"kind" : "cache",

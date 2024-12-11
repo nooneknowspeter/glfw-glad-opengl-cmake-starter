@@ -1,4 +1,4 @@
-# Install script for directory: /home/peter/projects/test/libs/glad
+# Install script for directory: /home/peter/projects/opengl-playground/libs/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

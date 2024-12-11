@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peter/projects/test
+CMAKE_SOURCE_DIR = /home/peter/projects/opengl-playground
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peter/projects/test/build
+CMAKE_BINARY_DIR = /home/peter/projects/opengl-playground/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include libs/glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include libs/glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 libs/glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/peter/projects/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /home/peter/projects/test/libs/glfw/src && /usr/bin/cmake -P /home/peter/projects/test/libs/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/peter/projects/opengl-playground/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /home/peter/projects/opengl-playground/libs/glfw/src && /usr/bin/cmake -P /home/peter/projects/opengl-playground/libs/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: libs/glfw/src/CMakeFiles/update_mappings
 update_mappings: libs/glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ libs/glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : libs/glfw/src/CMakeFiles/update_mappings.dir/build
 
 libs/glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /home/peter/projects/test/build/libs/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /home/peter/projects/opengl-playground/build/libs/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : libs/glfw/src/CMakeFiles/update_mappings.dir/clean
 
 libs/glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /home/peter/projects/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peter/projects/test /home/peter/projects/test/libs/glfw/src /home/peter/projects/test/build /home/peter/projects/test/build/libs/glfw/src /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peter/projects/opengl-playground/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peter/projects/opengl-playground /home/peter/projects/opengl-playground/libs/glfw/src /home/peter/projects/opengl-playground/build /home/peter/projects/opengl-playground/build/libs/glfw/src /home/peter/projects/opengl-playground/build/libs/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/glfw/src/CMakeFiles/update_mappings.dir/depend
 

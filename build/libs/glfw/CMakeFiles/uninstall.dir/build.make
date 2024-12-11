@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/peter/projects/test
+CMAKE_SOURCE_DIR = /home/peter/projects/opengl-playground
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/peter/projects/test/build
+CMAKE_BINARY_DIR = /home/peter/projects/opengl-playground/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include libs/glfw/CMakeFiles/uninstall.dir/compiler_depend.make
 include libs/glfw/CMakeFiles/uninstall.dir/progress.make
 
 libs/glfw/CMakeFiles/uninstall:
-	cd /home/peter/projects/test/build/libs/glfw && /usr/bin/cmake -P /home/peter/projects/test/build/libs/glfw/cmake_uninstall.cmake
+	cd /home/peter/projects/opengl-playground/build/libs/glfw && /usr/bin/cmake -P /home/peter/projects/opengl-playground/build/libs/glfw/cmake_uninstall.cmake
 
 uninstall: libs/glfw/CMakeFiles/uninstall
 uninstall: libs/glfw/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ libs/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : libs/glfw/CMakeFiles/uninstall.dir/build
 
 libs/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/peter/projects/test/build/libs/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/peter/projects/opengl-playground/build/libs/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : libs/glfw/CMakeFiles/uninstall.dir/clean
 
 libs/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/peter/projects/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peter/projects/test /home/peter/projects/test/libs/glfw /home/peter/projects/test/build /home/peter/projects/test/build/libs/glfw /home/peter/projects/test/build/libs/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/peter/projects/opengl-playground/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/peter/projects/opengl-playground /home/peter/projects/opengl-playground/libs/glfw /home/peter/projects/opengl-playground/build /home/peter/projects/opengl-playground/build/libs/glfw /home/peter/projects/opengl-playground/build/libs/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libs/glfw/CMakeFiles/uninstall.dir/depend
 

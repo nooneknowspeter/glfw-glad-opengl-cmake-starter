@@ -1,5 +1,5 @@
 libs/glad/CMakeFiles/glad.dir/src/glad.c.o: \
- /home/peter/projects/test/libs/glad/src/glad.c \
+ /home/peter/projects/opengl-playground/libs/glad/src/glad.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -51,8 +51,8 @@ libs/glad/CMakeFiles/glad.dir/src/glad.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/peter/projects/test/libs/glad/include/glad/glad.h \
- /home/peter/projects/test/libs/glad/include/KHR/khrplatform.h \
+ /home/peter/projects/opengl-playground/libs/glad/include/glad/glad.h \
+ /home/peter/projects/opengl-playground/libs/glad/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

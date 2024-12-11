@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/peter/projects/test/libs/glad/include
+C_INCLUDES = -I/home/peter/projects/opengl-playground/libs/glad/include
 
 C_FLAGS = -g
 

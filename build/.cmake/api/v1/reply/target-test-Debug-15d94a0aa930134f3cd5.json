@@ -91,11 +91,11 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/peter/projects/test/libs/glfw/include"
+					"path" : "/home/peter/projects/opengl-playground/libs/glfw/include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/peter/projects/test/libs/glad/include"
+					"path" : "/home/peter/projects/opengl-playground/libs/glad/include"
 				}
 			],
 			"language" : "CXX",

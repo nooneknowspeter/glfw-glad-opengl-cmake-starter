@@ -351,8 +351,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/peter/projects/test/build",
-		"source" : "/home/peter/projects/test"
+		"build" : "/home/peter/projects/opengl-playground/build",
+		"source" : "/home/peter/projects/opengl-playground"
 	},
 	"version" : 
 	{

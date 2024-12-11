@@ -1,4 +1,4 @@
-# Install script for directory: /home/peter/projects/test
+# Install script for directory: /home/peter/projects/opengl-playground
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/peter/projects/test/build/libs/glfw/cmake_install.cmake")
-  include("/home/peter/projects/test/build/libs/glad/cmake_install.cmake")
+  include("/home/peter/projects/opengl-playground/build/libs/glfw/cmake_install.cmake")
+  include("/home/peter/projects/opengl-playground/build/libs/glad/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/peter/projects/test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/peter/projects/opengl-playground/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
