@@ -6,5 +6,6 @@ add_executable(test src/main.cpp)
 include(cmake/CPM.cmake)
 
 add_subdirectory(libs/glfw)
+add_subdirectory(libs/glad)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE glfw)
+target_link_libraries(${PROJECT_NAME} PRIVATE glfw glad)
