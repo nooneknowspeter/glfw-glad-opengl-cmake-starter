@@ -7,4 +7,4 @@ include(cmake/CPM.cmake)
 
 add_subdirectory(libs/glfw)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE glfw )
+target_link_libraries(${PROJECT_NAME} PRIVATE glfw)

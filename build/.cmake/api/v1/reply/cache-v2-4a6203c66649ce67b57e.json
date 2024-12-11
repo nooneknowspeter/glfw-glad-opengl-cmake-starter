@@ -2,6 +2,22 @@
 	"entries" : 
 	[
 		{
+			"name" : "BISON_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "path to the bison executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/bison"
+		},
+		{
 			"name" : "BUILD_SHARED_LIBS",
 			"properties" : 
 			[
@@ -1530,6 +1546,102 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "CPACK_SOURCE_RPM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build RPM source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPACK_SOURCE_TBZ2",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build TBZ2 source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CPACK_SOURCE_TGZ",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build TGZ source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CPACK_SOURCE_TXZ",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build TXZ source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CPACK_SOURCE_TZ",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build TZ source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CPACK_SOURCE_ZIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable to build ZIP source packages"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "CPM_DIRECTORY",
 			"properties" : 
 			[
@@ -1758,6 +1870,18 @@
 			"value" : "0.40.2"
 		},
 		{
+			"name" : "DOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "DOT-NOTFOUND"
+		},
+		{
 			"name" : "DOXYGEN_EXECUTABLE",
 			"properties" : 
 			[
@@ -1772,6 +1896,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/bin/doxygen"
+		},
+		{
+			"name" : "ENABLE_CLANG_TIDY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable static analysis with clang-tidy"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
 		},
 		{
 			"name" : "FETCHCONTENT_BASE_DIR",
@@ -1846,6 +1982,18 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_BISON",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding BISON"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/bin/bison][v3.8.2()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Doxygen",
 			"properties" : 
 			[
@@ -1858,6 +2006,30 @@
 			"value" : "[/usr/bin/doxygen][cfound components: doxygen ][v1.9.4()]"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_FLEX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding FLEX"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/bin/flex][v2.6.4()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Iconv",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Iconv"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[built in to C library][v()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig",
 			"properties" : 
 			[
@@ -1868,6 +2040,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/bin/pkg-config][v1.8.1()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Python",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Python"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr/bin/python3][cfound components: Interpreter ][v3.11.2()]"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
@@ -1892,6 +2076,54 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[/usr/include][/usr/lib/x86_64-linux-gnu/libX11.so][c ][v()]"
+		},
+		{
+			"name" : "FLEX_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "path to the flex executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/flex"
+		},
+		{
+			"name" : "FLEX_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to the flex headers"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "FL_LIBRARY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to the fl library"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/lib/x86_64-linux-gnu/libfl.so"
 		},
 		{
 			"name" : "FREETYPE_INCLUDE_DIR_freetype2",
@@ -1988,6 +2220,34 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libfontconfig.so"
+		},
+		{
+			"name" : "GENERATEDS_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "path to the generateDS executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "GENERATEDS_EXECUTABLE-NOTFOUND"
+		},
+		{
+			"name" : "GENERATED_SRC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Stores generated files"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/libs/doxygen/generated_src"
 		},
 		{
 			"name" : "GIT_EXECUTABLE",
@@ -2160,6 +2420,58 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
+		},
+		{
+			"name" : "Iconv_IS_BUILT_IN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test Iconv_IS_BUILT_IN"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "JAVACC_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "path to the javacc executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "JAVACC_EXECUTABLE-NOTFOUND"
+		},
+		{
+			"name" : "LEX_FILES_CPP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Stores generated files"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/libs/doxygen/generated_src/code.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/commentcnv.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/commentscan.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/constexp.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/declinfo.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/defargs.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/doctokenizer.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/fortrancode.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/fortranscanner.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/lexcode.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/lexscanner.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/pre.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/pycode.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/pyscanner.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/scanner.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/sqlcode.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/vhdlcode.cpp;/home/peter/projects/test/build/libs/doxygen/generated_src/xmlcode.cpp"
+		},
+		{
+			"name" : "LEX_FILES_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Stores generated files"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/libs/doxygen/generated_src/code.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/commentcnv.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/commentscan.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/constexp.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/declinfo.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/defargs.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/doctokenizer.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/fortrancode.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/fortranscanner.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/lexcode.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/lexscanner.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/pre.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/pycode.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/pyscanner.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/scanner.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/sqlcode.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/vhdlcode.l.h;/home/peter/projects/test/build/libs/doxygen/generated_src/xmlcode.l.h"
 		},
 		{
 			"name" : "MATH_LIBRARY",
@@ -2644,6 +2956,390 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/librt.a"
+		},
+		{
+			"name" : "SANITIZE_ADDRESS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable AddressSanitizer for sanitized targets."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SANITIZE_LINK_STATIC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Try to link static against sanitizers."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SANITIZE_MEMORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable MemorySanitizer for sanitized targets."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SANITIZE_THREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ThreadSanitizer for sanitized targets."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SANITIZE_UNDEFINED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable UndefinedBehaviorSanitizer for sanitized targets."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_ALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build all artifacts"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_BENCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build benchmarks (Requires https://github.com/google/benchmark.git to be installed)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_EXAMPLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build example"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_EXAMPLE_HO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build header only example"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_PIC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build position independent code (-fPIC)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_SHARED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build shared library"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_TESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build tests"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_TESTS_HO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build tests using the header only version"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_BUILD_WARNINGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable compiler warnings"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_CLOCK_COARSE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use CLOCK_REALTIME_COARSE instead of the regular clock,"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_DISABLE_DEFAULT_LOGGER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Disable default logger creation"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_ENABLE_PCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build static or shared library using precompiled header to speed up compilation time"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_FMT_EXTERNAL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use external fmt library instead of bundled"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_FMT_EXTERNAL_HO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use external fmt header-only library instead of bundled"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_INSTALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generate the install target"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_ATOMIC_LEVELS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "prevent spdlog from using of std::atomic log levels (use only if your code never modifies log levels concurrently"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_EXCEPTIONS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compile with -fno-exceptions. Call abort() on any spdlog exceptions"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_THREAD_ID",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "prevent spdlog from querying the thread id on each log call if thread id is not needed"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_NO_TLS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "prevent spdlog from using thread local storage"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_PREVENT_CHILD_FD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Prevent from child processes to inherit log file descriptors"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_SANITIZE_ADDRESS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable address sanitizer in tests"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_SYSTEM_INCLUDES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Include as system headers (skip for clang-tidy)."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_TIDY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "run clang-tidy"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_USE_STD_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use std::format instead of fmt library."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_WCHAR_CONSOLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "non supported option"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_WCHAR_FILENAMES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "non supported option"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SPDLOG_WCHAR_SUPPORT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "non supported option"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
 		},
 		{
 			"name" : "WAYLAND_SCANNER_EXECUTABLE",
@@ -4634,6 +5330,90 @@
 			"value" : "/usr/local"
 		},
 		{
+			"name" : "_Python_Compiler_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compiler reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python_Development_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Development reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/python3"
+		},
+		{
+			"name" : "_Python_INTERPRETER_PROPERTIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Python Properties"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Python;3;11;2;64;;cpython-311-x86_64-linux-gnu;/usr/lib/python3.11;/usr/lib/python3.11;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages"
+		},
+		{
+			"name" : "_Python_INTERPRETER_SIGNATURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "4c8bfa8951e99fa32e4000a94f8c04a2"
+		},
+		{
+			"name" : "_Python_Interpreter_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Interpreter reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python_NumPy_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "NumPy reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
 			"name" : "__pkg_config_arguments_PKG_FONTCONFIG",
 			"properties" : 
 			[
@@ -4680,6 +5460,210 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
+		},
+		{
+			"name" : "build_app",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Example showing how to embed doxygen in an application."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "build_doc",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build user manual (HTML and PDF)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "build_doc_chm",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build user manual (CHM)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "build_parse",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Parses source code and dumps the dependencies between the code elements."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "build_search",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build external search tools (doxysearch and doxyindexer)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "build_wizard",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build the GUI frontend for doxygen."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "clang",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "used in settings.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "0"
+		},
+		{
+			"name" : "depfile_supported",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "DEPFILE is supported"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "doxygen_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/peter/projects/test/build/libs/doxygen"
+		},
+		{
+			"name" : "doxygen_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "doxygen_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/peter/projects/test/libs/doxygen"
+		},
+		{
+			"name" : "enable_console",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable that executables on Windows get the CONSOLE bit set for the doxywizard executable [development]"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "enable_coverage",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable coverage reporting for gcc/clang [development]"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "enable_lex_debug",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable debugging info for lexical scanners in release builds [development]"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "enable_tracing",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable tracing option in release builds [development]"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "enlarge_lex_buffers",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Sets the lex input and read buffers to the specified size"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "262144"
+		},
+		{
+			"name" : "force_qt",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Forces doxywizard to build using the specified major version, this can be Qt5 or Qt6"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
 		},
 		{
 			"name" : "pkgcfg_lib_PKG_FONTCONFIG_fontconfig",
@@ -4790,6 +5774,54 @@
 			"value" : "/usr/lib/x86_64-linux-gnu"
 		},
 		{
+			"name" : "spdlog_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/peter/projects/test/build/libs/doxygen/deps/spdlog"
+		},
+		{
+			"name" : "spdlog_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "spdlog_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/peter/projects/test/libs/doxygen/deps/spdlog"
+		},
+		{
+			"name" : "static_libclang",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Link to a statically compiled version of LLVM/libclang."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
 			"name" : "test_BINARY_DIR",
 			"properties" : 
 			[
@@ -4824,6 +5856,66 @@
 			],
 			"type" : "STATIC",
 			"value" : "/home/peter/projects/test"
+		},
+		{
+			"name" : "use_libc++",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use libc++ as C++ standard library."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "use_libclang",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Add support for libclang parsing."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "use_sys_spdlog",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use system spdlog library instead of the one bundled."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "use_sys_sqlite3",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use system sqlite3 library instead of the one bundled."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "win_static",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Link with /MT in stead of /MD on windows"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
 		}
 	],
 	"kind" : "cache",

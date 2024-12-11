@@ -1,4 +1,6 @@
 /home/peter/projects/test/build/CMakeFiles/test.dir
+/home/peter/projects/test/build/CMakeFiles/package.dir
+/home/peter/projects/test/build/CMakeFiles/package_source.dir
 /home/peter/projects/test/build/CMakeFiles/edit_cache.dir
 /home/peter/projects/test/build/CMakeFiles/rebuild_cache.dir
 /home/peter/projects/test/build/CMakeFiles/list_install_components.dir
@@ -6,6 +8,8 @@
 /home/peter/projects/test/build/CMakeFiles/install/local.dir
 /home/peter/projects/test/build/CMakeFiles/install/strip.dir
 /home/peter/projects/test/build/libs/glfw/CMakeFiles/uninstall.dir
+/home/peter/projects/test/build/libs/glfw/CMakeFiles/package.dir
+/home/peter/projects/test/build/libs/glfw/CMakeFiles/package_source.dir
 /home/peter/projects/test/build/libs/glfw/CMakeFiles/edit_cache.dir
 /home/peter/projects/test/build/libs/glfw/CMakeFiles/rebuild_cache.dir
 /home/peter/projects/test/build/libs/glfw/CMakeFiles/list_install_components.dir
@@ -14,12 +18,16 @@
 /home/peter/projects/test/build/libs/glfw/CMakeFiles/install/strip.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/glfw.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/update_mappings.dir
+/home/peter/projects/test/build/libs/glfw/src/CMakeFiles/package.dir
+/home/peter/projects/test/build/libs/glfw/src/CMakeFiles/package_source.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/edit_cache.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/rebuild_cache.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/list_install_components.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/install.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/install/local.dir
 /home/peter/projects/test/build/libs/glfw/src/CMakeFiles/install/strip.dir
+/home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/package.dir
+/home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/package_source.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/edit_cache.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/rebuild_cache.dir
 /home/peter/projects/test/build/libs/glfw/docs/CMakeFiles/list_install_components.dir
