@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/peter/projects/test/build",
-  "command": "/usr/bin/clang++   -g -o CMakeFiles/test.dir/src/main.cpp.o -c /home/peter/projects/test/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/home/peter/projects/test/libs/glfw/include -g -o CMakeFiles/test.dir/src/main.cpp.o -c /home/peter/projects/test/src/main.cpp",
   "file": "/home/peter/projects/test/src/main.cpp"
 },
 {

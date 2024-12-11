@@ -1,5 +1,6 @@
 CMakeFiles/test.dir/src/main.cpp.o: \
-  /home/peter/projects/test/src/main.cpp /usr/include/GLFW/glfw3.h \
+  /home/peter/projects/test/src/main.cpp \
+  /home/peter/projects/test/libs/glfw/include/GLFW/glfw3.h \
   /usr/lib/llvm-14/lib/clang/14.0.6/include/stddef.h \
   /usr/lib/llvm-14/lib/clang/14.0.6/include/__stddef_max_align_t.h \
   /usr/lib/llvm-14/lib/clang/14.0.6/include/stdint.h \

@@ -1530,6 +1530,234 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "CPM_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/cmake"
+		},
+		{
+			"name" : "CPM_DONT_CREATE_PACKAGE_LOCK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Don't create a package lock file in the binary path"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_DONT_UPDATE_MODULE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Don't update the module path to allow using find_package"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_DOWNLOAD_ALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Always download dependencies from source"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_DRY_RUN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Don't download or configure dependencies (for testing)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_FILE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/cmake/CPM_0.40.2.cmake"
+		},
+		{
+			"name" : "CPM_INCLUDE_ALL_IN_PACKAGE_LOCK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Add all packages added through CPM.cmake to the package lock"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_INDENT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CPM:"
+		},
+		{
+			"name" : "CPM_LOCAL_PACKAGES_ONLY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Only use `find_package` to get dependencies"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_MODULE_PATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/CPM_modules"
+		},
+		{
+			"name" : "CPM_PACKAGES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CPM_PACKAGE_LOCK_FILE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/cpm-package-lock.cmake"
+		},
+		{
+			"name" : "CPM_PACKAGE_glfw_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/_deps/glfw-build"
+		},
+		{
+			"name" : "CPM_PACKAGE_glfw_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/peter/projects/test/build/_deps/glfw-src"
+		},
+		{
+			"name" : "CPM_PACKAGE_glfw_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3.4"
+		},
+		{
+			"name" : "CPM_SOURCE_CACHE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Directory to download CPM dependencies"
+				}
+			],
+			"type" : "PATH",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_USE_LOCAL_PACKAGES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Always try to use `find_package` to get dependencies"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_USE_NAMED_CACHE_DIRECTORIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use additional directory of package name in cache on the most nested level."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CPM_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "0.40.2"
+		},
+		{
 			"name" : "DOXYGEN_EXECUTABLE",
 			"properties" : 
 			[
@@ -1544,6 +1772,78 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/bin/doxygen"
+		},
+		{
+			"name" : "FETCHCONTENT_BASE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Directory under which to collect all populated content"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/peter/projects/test/build/_deps"
+		},
+		{
+			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Disables all attempts to download or update content and assumes source dirs already exist"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "FETCHCONTENT_QUIET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables QUIET option for all content population"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "FETCHCONTENT_SOURCE_DIR_GLFW",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "When not empty, overrides where to find pre-populated content for glfw"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "FETCHCONTENT_UPDATES_DISCONNECTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables UPDATE_DISCONNECTED behavior for all content population"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "FETCHCONTENT_UPDATES_DISCONNECTED_GLFW",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables UPDATE_DISCONNECTED behavior just for population of glfw"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Doxygen",
@@ -1688,6 +1988,22 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libfontconfig.so"
+		},
+		{
+			"name" : "GIT_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Git command line client"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/git"
 		},
 		{
 			"name" : "GLFW_BINARY_DIR",

@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g CMakeFiles/test.dir/src/main.cpp.o -o test 
+/usr/bin/clang++ -g CMakeFiles/test.dir/src/main.cpp.o -o test  libs/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

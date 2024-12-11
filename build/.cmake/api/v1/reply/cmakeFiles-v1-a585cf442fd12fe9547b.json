@@ -142,6 +142,18 @@
 			"path" : "/usr/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
+			"path" : "cmake/CPM.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/cmake/CPM_0.40.2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.25/Modules/FetchContent.cmake"
+		},
+		{
 			"path" : "libs/glfw/CMakeLists.txt"
 		},
 		{

@@ -273,8 +273,53 @@ CMAKE_STRIP:FILEPATH=/usr/bin/llvm-strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Don't create a package lock file in the binary path
+CPM_DONT_CREATE_PACKAGE_LOCK:BOOL=OFF
+
+//Don't update the module path to allow using find_package
+CPM_DONT_UPDATE_MODULE_PATH:BOOL=OFF
+
+//Always download dependencies from source
+CPM_DOWNLOAD_ALL:BOOL=OFF
+
+//Add all packages added through CPM.cmake to the package lock
+CPM_INCLUDE_ALL_IN_PACKAGE_LOCK:BOOL=OFF
+
+//Only use `find_package` to get dependencies
+CPM_LOCAL_PACKAGES_ONLY:BOOL=OFF
+
+//Directory to download CPM dependencies
+CPM_SOURCE_CACHE:PATH=OFF
+
+//Always try to use `find_package` to get dependencies
+CPM_USE_LOCAL_PACKAGES:BOOL=OFF
+
+//Use additional directory of package name in cache on the most
+// nested level.
+CPM_USE_NAMED_CACHE_DIRECTORIES:BOOL=OFF
+
 //Doxygen documentation generation tool (https://www.doxygen.nl)
 DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
+
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=/home/peter/projects/test/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for glfw
+FETCHCONTENT_SOURCE_DIR_GLFW:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of glfw
+FETCHCONTENT_UPDATES_DISCONNECTED_GLFW:BOOL=OFF
 
 //Path to a file.
 FREETYPE_INCLUDE_DIR_freetype2:PATH=/usr/include/freetype2
@@ -293,6 +338,9 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=/home/peter/projects/test/build/libs/glfw
@@ -806,6 +854,18 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+CPM_DIRECTORY:INTERNAL=/home/peter/projects/test/build/cmake
+//Don't download or configure dependencies (for testing)
+CPM_DRY_RUN:INTERNAL=OFF
+CPM_FILE:INTERNAL=/home/peter/projects/test/build/cmake/CPM_0.40.2.cmake
+CPM_INDENT:INTERNAL=CPM:
+CPM_MODULE_PATH:INTERNAL=/home/peter/projects/test/build/CPM_modules
+CPM_PACKAGES:INTERNAL=
+CPM_PACKAGE_LOCK_FILE:INTERNAL=/home/peter/projects/test/build/cpm-package-lock.cmake
+CPM_PACKAGE_glfw_BINARY_DIR:INTERNAL=/home/peter/projects/test/build/_deps/glfw-build
+CPM_PACKAGE_glfw_SOURCE_DIR:INTERNAL=/home/peter/projects/test/build/_deps/glfw-src
+CPM_PACKAGE_glfw_VERSION:INTERNAL=3.4
+CPM_VERSION:INTERNAL=0.40.2
 //ADVANCED property for variable: DOXYGEN_EXECUTABLE
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //Details about finding Doxygen
@@ -828,6 +888,8 @@ FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Fontconfig_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Fontconfig_LIBRARY
 Fontconfig_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
 //GLFW pkg-config Libs.private
 GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL=-lrt -lm -ldl
 //GLFW pkg-config Requires.private

@@ -14,7 +14,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.5.0"
+						"string" : "3.14"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -120,7 +120,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-bcf30f333906590ef45d.json",
+					"jsonFile" : "target-test-Debug-e8acfd6bf1f9e54def0d.json",
 					"name" : "test",
 					"projectIndex" : 0
 				},
